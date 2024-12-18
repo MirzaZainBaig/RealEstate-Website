@@ -1,0 +1,109 @@
+.propertypnsights{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    gap: 30px;
+    padding: 30px;
+    /* animation: appear 5s linear; */
+}
+.propertypnsights .propertypnsights_imgaes{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    height: 500px;
+}
+.propertypnsights .propertypnsights_imgaes .propertypnsights1{
+    width: 45%;
+    border-radius: 20px;
+    max-height: 460px;
+    background-image: url('../../assets/images/propertyinsight1.png');
+    margin-top: 35px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.propertypnsights .propertypnsights_imgaes .propertypnsights2{
+    background-image: url('../../assets/images/propertyinsight2.png');
+    max-height: 500px;
+    margin-top: 0px;
+    width: 50%;
+}
+.propertypnsights .propertypnsights_content{
+    width: 50%;
+    /* height: 500px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.propertypnsights .propertypnsights_content h5{
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 60px;
+    font-family: arial;
+}
+.propertypnsights .propertypnsights_content p{
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.637);
+}
+.propertypnsights_content a{
+    padding: 10px 30px;
+    border-radius: 10px;
+    background-color: white;
+    color: #CB9731;
+    font-weight: 800;
+    margin: 40px;
+    text-decoration: none;
+    cursor: pointer;
+    align-self: flex-start;
+    margin: 0;
+    font-style: italic;
+}
+
+@media only screen and (max-width: 800px){
+    .propertypnsights .propertypnsights_content{
+        width: 100%;
+        padding: 15px;
+    }
+    .propertypnsights .propertypnsights_imgaes{
+        width: 100%;
+        justify-content: center;
+        height: 400px;
+    }
+    .propertypnsights{
+        flex-direction: column;
+        gap: 0px;
+        padding: 5px;
+    }
+    .propertypnsights .propertypnsights_imgaes .propertypnsights1{
+        width: 45%;
+        border-radius: 20px;
+        max-height: 350px;
+        background-image: url('../../assets/images/propertyinsight1.png');
+        margin-top: 19px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .propertypnsights .propertypnsights_imgaes .propertypnsights2{
+        background-image: url('../../assets/images/propertyinsight2.png');
+        max-height: 370px;
+        margin-top: 0px;
+        width: 50%;
+    }
+    .propertypnsights .propertypnsights_content h5{
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 40px;
+        font-family: arial;
+    }
+    .propertypnsights .propertypnsights_content p{
+        font-size: 15px;
+        font-weight: 400;
+        color: rgba(255, 255, 255, 0.637);
+        text-align: justify;
+    }
+}

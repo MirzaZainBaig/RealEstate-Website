@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.contactbar{
+    height: 80px;
+    background-color: #fff;
+    color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    /* box-shadow: 1px 1px 2px #CB9731 inset; */
+    padding: 0px;
+    padding-top:10px;
+    /* color: #CB9731; */
+}
+.contactbar .div1{
+    /* text-align: center; */
+    margin: auto;
+    /* border: 1px solid black; */
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+}
+
+.contactbar .div1 img{
+    height: 15px;
+    width: auto;
+    margin: 10px;
+}
+.contactbar .div1 p{
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+hr{
+    height: 45px;
+    width: 1.5px;
+    /* color: black; */
+    background-color: black;
+    border-radius: 30px;
+}

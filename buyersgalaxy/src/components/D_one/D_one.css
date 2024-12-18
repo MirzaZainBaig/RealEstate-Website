@@ -1,0 +1,120 @@
+.d-one{
+    background-color: #CB9731;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    margin-top: 80px;
+}
+.d-one h2{
+    line-height: 60px;
+    font-size: 40px;
+    font-weight: 800;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.underline{
+    text-decoration: underline;
+}
+.d-one .download_form{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+} 
+.download-img{
+    width: 70%;
+    height: auto;
+}
+.download-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+.download-form h1{
+    text-align: center;
+}
+.download-form input  {
+    margin: 20px;
+    width: 95%;
+    border-radius: 5px;
+    padding: 10px;
+    /* border: 1px solid #D9D9D9; */
+    /* background-color: transparent; */
+    color: black;
+    font-weight: 400;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+.download-form #submit {
+    background-color: rgb(250, 175, 35);
+    color: white;
+    box-shadow: 2px 2px 4px rgb(183, 151, 45);
+    box-sizing: border-box;
+    border: none;
+    font-weight: 800;
+    letter-spacing: 2px;
+    box-shadow: 1px 1px 1px 1px black;
+}
+.download-form input::placeholder {
+    color: rgba(0, 0, 0, 0.623);  
+}
+.download-form input:hover{
+    border: 1px solid black;
+}
+.download-form #submit:hover{
+    border: none;
+    background-color: rgba(250, 175, 35, 0.831);
+}
+.download-form #submit:active{
+    border: none;
+    /* background-color: rgba(250, 175, 35, 0.831); */
+    box-shadow: none;
+    opacity: 1;
+}
+@media only screen and (max-width: 900px) {
+    .download-section{
+        flex-direction: column;
+    }    
+    .download-section img{
+        height: auto;
+        width: 75%;
+    }
+    .d-one h2{
+        font-size: 21px;
+        line-height: 30px;
+        font-weight: 800;
+    }
+    .d-one p{
+        font-size: 13px;
+        padding: 10px 20px;
+    }
+    .download-form input, .download-form #submit {
+        /* width: 90%; */
+        font-size: 15px;
+    } 
+}
+@media only screen and (max-width: 550px) {
+    .download-section{
+        flex-direction: column;
+        padding: 10px;
+    }    
+    .download-form input, .download-form #submit {
+        width: 90%;
+        font-size: 13px;
+    }    
+    .d-one h2{
+        font-size: 21px;
+        line-height: 30px;
+        font-weight: 800;
+    }
+    .d-one p{
+        font-size: 10px;
+    }
+    .d-one{
+        padding: 10px;
+    }
+    .download-section img{
+        height: auto;
+        width: 100%;
+    }
+}

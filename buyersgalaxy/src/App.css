@@ -1,0 +1,33 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+html {
+  scroll-behavior: smooth;
+}
+:root {
+  --body-color: #0F1B30;
+  --background-color: #CB9731;
+  --text-color: #D9D9D9;
+}
+::-webkit-scrollbar {
+  width: 5px;
+}
+v 
+::-webkit-scrollbar-track {
+  background: var(--body-color);
+}
+
+::-webkit-scrollbar-thumb {
+  background:var(--background-color);
+  border-radius: 30px;
+}
+
+.App{
+  background-color: var(--body-color);
+  min-height: 100vh;
+  width: auto;
+  color: var(--text-color);
+}

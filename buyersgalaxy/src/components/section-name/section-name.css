@@ -1,0 +1,38 @@
+.title{
+display: flex;
+justify-content: center;
+height: auto;
+margin: 80px 0px 20px 0px;
+padding: 10px;
+}
+.title span{
+    font-weight: bolder;
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-align: center;
+    box-shadow: 2px 2px 15px #CB9731 inset, 10px 10px 10px black;
+    /* filter: drop-shadow(10px 20px 20px white); */
+    padding: 10px 150px;
+    border-radius: 20px;
+    color: #CB9731;
+}
+
+/* Medium Screens (Tablets, Small Laptops) */
+@media only screen and (max-width: 768px) {
+    .title span {    
+        font-weight: 900;
+        font-size: 14px;
+        letter-spacing: 1px;
+        text-align: center;
+        box-shadow: 2px 2px 15px #CB9731 inset, 10px 10px 10px black;
+        padding: 10px 5px; 
+        border-radius: 10px;
+        width: 100%;
+    }
+}
+/* Extra Small Screens (Very Small Mobile Devices) */
+@media only screen and (max-width: 480px) {
+    .about-section h1 {
+        font-size: 26px; /* Smaller font size for very small screens */
+    }
+}

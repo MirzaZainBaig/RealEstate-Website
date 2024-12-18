@@ -1,0 +1,48 @@
+.footer{
+    background-color: #ededed;
+    color: black;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    /* align-items:center; */
+    font-size: 12px;
+    margin-bottom: 80px;
+}
+.footer P{
+    font-size: 15px;
+}
+.icon-container {
+    display: flex;
+    gap: 20px;
+    /* border: 1px solid black; */
+}
+.icon {
+font-size: 20px;
+color: #333;
+text-decoration: none;
+/* transition: color 0.3s; */
+}
+.icon:hover {
+color: #1da1f2;
+}
+.instagram:hover{
+    color: #dd2a7b;
+}
+.tiktok:hover{
+    color: #fcf5f5;  
+}
+.footer span{
+    font-weight: 500;
+}
+@media only screen and (max-width: 700px) {
+    .footer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+    .footer P{
+        margin-top: 15PX;
+        font-size: 11PX;
+    }
+}
